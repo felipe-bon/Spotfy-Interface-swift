@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F31682012A79C04200DAF558 /* desafioSpotfyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31682002A79C04200DAF558 /* desafioSpotfyApp.swift */; };
+		F31682032A79C04200DAF558 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31682022A79C04200DAF558 /* ContentView.swift */; };
+		F31682052A79C04400DAF558 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F31682042A79C04400DAF558 /* Assets.xcassets */; };
+		F31682082A79C04400DAF558 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F31682072A79C04400DAF558 /* Preview Assets.xcassets */; };
+		F31682112A79C23400DAF558 /* SongMondels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31682102A79C23400DAF558 /* SongMondels.swift */; };
+		F31682132A79C35400DAF558 /* SongDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31682122A79C35400DAF558 /* SongDetail.swift */; };
+		F31682152A79C39E00DAF558 /* HackSongApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31682142A79C39E00DAF558 /* HackSongApp.swift */; };
+		F31682172A79D83800DAF558 /* AlbunsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31682162A79D83800DAF558 /* AlbunsView.swift */; };
+		F3281BA32A7B14780003F231 /* PlayListCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3281BA22A7B14780003F231 /* PlayListCover.swift */; };
+		F3281BA52A7B16500003F231 /* RecomendationSongs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3281BA42A7B16500003F231 /* RecomendationSongs.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F31681FD2A79C04200DAF558 /* desafioSpotfy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = desafioSpotfy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31682002A79C04200DAF558 /* desafioSpotfyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = desafioSpotfyApp.swift; sourceTree = "<group>"; };
+		F31682022A79C04200DAF558 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F31682042A79C04400DAF558 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F31682072A79C04400DAF558 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F31682102A79C23400DAF558 /* SongMondels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongMondels.swift; sourceTree = "<group>"; };
+		F31682122A79C35400DAF558 /* SongDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDetail.swift; sourceTree = "<group>"; };
+		F31682142A79C39E00DAF558 /* HackSongApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackSongApp.swift; sourceTree = "<group>"; };
+		F31682162A79D83800DAF558 /* AlbunsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbunsView.swift; sourceTree = "<group>"; };
+		F3281BA22A7B14780003F231 /* PlayListCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListCover.swift; sourceTree = "<group>"; };
+		F3281BA42A7B16500003F231 /* RecomendationSongs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecomendationSongs.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F31681FA2A79C04200DAF558 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F31681F42A79C04200DAF558 = {
+			isa = PBXGroup;
+			children = (
+				F31681FF2A79C04200DAF558 /* desafioSpotfy */,
+				F31681FE2A79C04200DAF558 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F31681FE2A79C04200DAF558 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F31681FD2A79C04200DAF558 /* desafioSpotfy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F31681FF2A79C04200DAF558 /* desafioSpotfy */ = {
+			isa = PBXGroup;
+			children = (
+				F31682002A79C04200DAF558 /* desafioSpotfyApp.swift */,
+				F31682022A79C04200DAF558 /* ContentView.swift */,
+				F31682102A79C23400DAF558 /* SongMondels.swift */,
+				F31682042A79C04400DAF558 /* Assets.xcassets */,
+				F31682062A79C04400DAF558 /* Preview Content */,
+				F31682122A79C35400DAF558 /* SongDetail.swift */,
+				F31682142A79C39E00DAF558 /* HackSongApp.swift */,
+				F31682162A79D83800DAF558 /* AlbunsView.swift */,
+				F3281BA22A7B14780003F231 /* PlayListCover.swift */,
+				F3281BA42A7B16500003F231 /* RecomendationSongs.swift */,
+			);
+			path = desafioSpotfy;
+			sourceTree = "<group>";
+		};
+		F31682062A79C04400DAF558 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F31682072A79C04400DAF558 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F31681FC2A79C04200DAF558 /* desafioSpotfy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F316820B2A79C04400DAF558 /* Build configuration list for PBXNativeTarget "desafioSpotfy" */;
+			buildPhases = (
+				F31681F92A79C04200DAF558 /* Sources */,
+				F31681FA2A79C04200DAF558 /* Frameworks */,
+				F31681FB2A79C04200DAF558 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = desafioSpotfy;
+			productName = desafioSpotfy;
+			productReference = F31681FD2A79C04200DAF558 /* desafioSpotfy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F31681F52A79C04200DAF558 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F31681FC2A79C04200DAF558 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = F31681F82A79C04200DAF558 /* Build configuration list for PBXProject "desafioSpotfy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F31681F42A79C04200DAF558;
+			productRefGroup = F31681FE2A79C04200DAF558 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F31681FC2A79C04200DAF558 /* desafioSpotfy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F31681FB2A79C04200DAF558 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31682082A79C04400DAF558 /* Preview Assets.xcassets in Resources */,
+				F31682052A79C04400DAF558 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F31681F92A79C04200DAF558 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3281BA32A7B14780003F231 /* PlayListCover.swift in Sources */,
+				F31682132A79C35400DAF558 /* SongDetail.swift in Sources */,
+				F31682172A79D83800DAF558 /* AlbunsView.swift in Sources */,
+				F31682112A79C23400DAF558 /* SongMondels.swift in Sources */,
+				F31682032A79C04200DAF558 /* ContentView.swift in Sources */,
+				F3281BA52A7B16500003F231 /* RecomendationSongs.swift in Sources */,
+				F31682152A79C39E00DAF558 /* HackSongApp.swift in Sources */,
+				F31682012A79C04200DAF558 /* desafioSpotfyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F31682092A79C04400DAF558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F316820A2A79C04400DAF558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F316820C2A79C04400DAF558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"desafioSpotfy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "felipe-B.desafioSpotfy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F316820D2A79C04400DAF558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"desafioSpotfy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "felipe-B.desafioSpotfy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F31681F82A79C04200DAF558 /* Build configuration list for PBXProject "desafioSpotfy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F31682092A79C04400DAF558 /* Debug */,
+				F316820A2A79C04400DAF558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F316820B2A79C04400DAF558 /* Build configuration list for PBXNativeTarget "desafioSpotfy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F316820C2A79C04400DAF558 /* Debug */,
+				F316820D2A79C04400DAF558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F31681F52A79C04200DAF558 /* Project object */;
+}
